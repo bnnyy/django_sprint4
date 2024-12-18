@@ -1,3 +1,4 @@
+<!-- В этом файле отображается одна выбранная публикация -->
 {% extends "base.html" %}
 {% block title %}
   {{ post.title }} | {% if post.location and post.location.is_published %}{{ post.location.name }}{% else %}Планета Земля{% endif %} |
